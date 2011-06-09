@@ -4,4 +4,7 @@ It is a first attempt at doing continuously alternating exposures 3 steps apart 
 
 It functions as a very simple openFrameworks based sketch for the Longing Fast Forward Research Station software - as such it is unoptimised, slow and not very clever, but is kept nonetheless, in case someone would like to have a look at the proposed ofxVideoGrabberProsilica ofAddon embedded in the project.
 
+The ofxVideoGrabberProsilica addon is based on Stephan Schulz' work as mentioned in the openFrameworks forum:
+http://forum.openframeworks.cc/index.php/topic,3520.msg28177.html#msg28177
+
 To work as intended it should operate at a continuous rate of 50fps resulting in a 25 fps HDR video. This requires accurate timing of the camera code, and for now another path is taken outside of openFrameworks. Later the ofxVideoGrabberProsilica should be updated to take advantage of precise timing allowing for 50fps video with precise control.
